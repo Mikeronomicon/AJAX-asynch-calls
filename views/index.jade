@@ -2,4 +2,9 @@ extends layout
 
 block content
   h1= title
-  p Welcome to #{title}
+  p Input User Name
+  form
+   input(type="text")
+   input(type="submit" id="button" value="Press Me!")
+  script(src='/javascripts/jquery-2.1.4.min.js')
+  script(src='/javascripts/page.js')
